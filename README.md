@@ -63,5 +63,13 @@ Raw numbers are in [`results/metrics.csv`](results/metrics.csv); [`make_chart.py
 ## Notes
 
 - The per-method result files do not record which base model the prompting runs used, and the self-consistency run did not record SQL validity.
-- The experiment notebook, evaluation subset and adapter weights are not included here yet; this repository currently holds the results and write-up.
+- The experiment notebooks are in `notebooks/`. The evaluation subset and adapter weights are not included; this repository holds the results, write-up and notebooks.
 - The original project proposal listed four datasets (Adult Income, Wine Quality, Heart Disease and WikiTableQuestions) with a plan for prompting, RAG and optional LoRA experiments.
+
+## Notebooks
+
+- [`NLQuery_GenAI_Project_Group4.ipynb`](notebooks/NLQuery_GenAI_Project_Group4.ipynb): the full group notebook (152 cells, with saved outputs).
+- [`NLQuery_GenAI_Project_early_version.ipynb`](notebooks/NLQuery_GenAI_Project_early_version.ipynb): an earlier, smaller version of the same project.
+
+Group project; student identifiers and Colab account metadata were removed, code and outputs are unchanged.
+
